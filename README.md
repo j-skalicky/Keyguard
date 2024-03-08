@@ -7,4 +7,4 @@ is computed and compared to a threshold value (defined in `SLIDING_WINDOW_THRESH
 it is assumed that automated keystroke attack is being performed. Consequently, for `KEYSTROKES_QUARANTINE_DURATION` seconds, all keystrokes are blocked.
 Optionally, the user can also be locked out from his Windows session - which is controlled by `LOCK_SCREEN` constant.
 
-Inspired by (https://stackoverflow.com/questions/43712486/windows-service-keylogger)[Stack Overflow] and (https://github.com/pmsosa/duckhunt)[Duckhunt].
+Inspired by [Stack Overflow](https://stackoverflow.com/questions/43712486/windows-service-keylogger) and [Duckhunt](https://github.com/pmsosa/duckhunt).
